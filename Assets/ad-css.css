@@ -76,6 +76,7 @@ html {
     width: 175px;
     vertical-align: middle;
   }
+  /* banner image */
   .container {
     position: relative;
     text-align: center;
@@ -87,52 +88,166 @@ html {
     height: 150px;
     background-position: center; 
   }
+/* banner words */
 
-  .bottom-right {
+  .container .btn {
     position: absolute;
     bottom: 8px;
-    right: 16px;
+    right: 40px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(182, 34%, 59%);
-  }
-  /* content flex */
+    color: rgb(48, 51, 59);
+    font-size: x-large;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
 
-  .some-page-wrapper {
-    display: flex;
-    margin: 15px;
-    background-color: red;
   }
-  .row {
+ 
+
+  .container .btn:hover {
+    background-color: rgb(48, 51, 59);
+    color: white;
+  }
+
+  /* content flex */
+ 
+  .body {
+    padding: 0;
+    margin: 0;
+}
+
+.Parent {
+    display: flex;
+    flex-direction: wrap;
+    
+}
+
+.child1 {
+    flex: 50%;
+    width: 25%;
+    max-width: 25%;
+    height: 20vh;
+    background-color: lavender;
+    text-align: right;
+    color: rgb(66, 66, 78);
+    margin-top: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 3px solid;
+}
+ /* about me */
+.child2 {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 51, 59);
+    
+}
+.Parent2 {
     display: flex;
     flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+    
+}
+.child3 {
+    flex: 50%;
+    max-width: 25%;
+    width: 25%;
+    height: 140vh;
+    background-color: lavender;
+    text-align: right;
+    color: rgb(66, 66, 78);
+    margin-top: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 3px solid;
+}
+ /* WORK */
+.child4 {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#imgborder {
+    border: 5px solid hsl(182, 34%, 59%);
+
+}
+.container2 {
+    position: relative;
+    
+}
+.container2 img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
   }
-  
-  .column {
-    display: flex;
-    flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  }
-  .orange-column {
-    background-color: orange;
-    height: 100px;
-  }
-  
-  .blue-column {
-    background-color: blue;
-    height: 100px;
-  }
-  
-  .green-column {
-    background-color: green;
-    height: 100px;
+.container2 .btn2 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(182, 34%, 59%);
+    color: rgb(48, 51, 59);
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    left: 0px;
+    bottom: 35px;
+    text-align: justify;
+    
+}
+
+.container3 {
+    position: relative;
+    margin-right: auto;
+
+    
+}
+.container3 img {
+    width: 50%;
+    height: auto;
+    
   }
 
+.container3 .btn3 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(182, 34%, 59%);
+    color: rgb(48, 51, 59);
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    left: 0px;
+    bottom: 35px;
+}
+.container4 {
+    position: relative;
+}
+.container4 img {
+    width: 50%;
+    height: auto;
+  }
 
+.container4 .btn4 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(182, 34%, 59%);
+    color: rgb(48, 51, 59);
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    left: 0px;
+    bottom: 35px;
+    text-align: right;
+}
  /* media queries */
-@media screen and (max-width: 600px) {
+ /* mobile */
+@media screen and (min-width:250px) and (max-width: 480px) {
     .nav-links {
       display:block;
     }
@@ -153,7 +268,83 @@ html {
 	display:inline-block;
         background-color: #d1d6d8;
     }
-    .column {
-            width: 100%;
-          }    
+    .child3 {
+        max-height: 60vh;
+    }
+    .container2 .btn2 {
+        font-size: xx-small;
+    }
+    .container3 img {
+        flex-direction: column;
+        max-width: 100%!important;
+        display: flex
+    }
+    .container3 {
+        flex-direction: column;
+        max-width: 100%!important;
+        display: flex
+    }
+    .container3 .btn3 {
+        font-size: xx-small;
+    }
+    .container4 img{
+        flex-direction: column;
+        max-width: 100%!important;
+        display: flex;
+    }
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        max-width: 100% !important; 
+    }
+    .container4 .btn4 {
+        font-size: xx-small;
+        max-width: 100%;
+    }
+}
+   /* Tablet View */
+   @media screen and (min-width:450px) and (max-width:768px) {
+    .container3 img {
+        flex-direction: row;
+        max-width: 50%;
+    }
+    .container3 {
+        flex-direction: row;
+        max-width: 50%;
+    }
+    .container4 img{
+        flex-direction: row;
+        max-width: 50%;
+    }
+    .container4 {
+        flex-direction: row;
+        max-width: 50%;
+    }
+    .container4 .btn4 {
+        font-size: small;
+        max-width: 100%;
+    }
   }
+  /* Laptop View */
+       @media screen and (min-width:769px) and (max-width:1024px) {
+        .container3 img {
+            flex-direction: row;
+            max-width: 50%;
+        }
+        .container3 {
+            flex-direction: row;
+            max-width: 100%;
+        }
+        .container4 img{
+            flex-direction: row;
+            max-width: 100%;
+        }
+        .container4 {
+            flex-direction: row;
+            max-width: 100%;
+        }
+        .container4 .btn4 {
+            font-size: medium;
+            max-width: 100%;
+        }
+    }
