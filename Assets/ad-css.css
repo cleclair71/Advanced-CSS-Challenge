@@ -45,9 +45,9 @@ html {
   .nav-links {
     display:block;
 	padding:14px 20px;	
-	color:rgb(5, 4, 4);
-	font-size:15px;
-	text-decoration:none;
+	font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(182, 34%, 59%);
   }
   
   .nav-item a {
@@ -61,7 +61,7 @@ html {
   nav ul li {
 	margin: 0px;
 	display:inline-block;
-	background-color: #d1d6d8;
+	
 	}
   
   .nav-item:hover {
@@ -77,7 +77,7 @@ html {
     vertical-align: middle;
   }
   /* banner image */
-  .container {
+  .container1 {
     position: relative;
     text-align: center;
     color: white;
@@ -90,7 +90,7 @@ html {
   }
 /* banner words */
 
-  .container .btn {
+  .container1 .btn {
     position: absolute;
     bottom: 8px;
     right: 40px;
@@ -105,87 +105,84 @@ html {
   }
  
 
-  .container .btn:hover {
+  .container1 .btn:hover {
     background-color: rgb(48, 51, 59);
     color: white;
   }
 
   /* content flex */
- 
-  .body {
-    padding: 0;
-    margin: 0;
-}
 
-.Parent {
+
+  .container {
     display: flex;
-    flex-direction: wrap;
-    
-}
-
-.child1 {
-    flex: 50%;
-    width: 25%;
-    max-width: 25%;
-    height: 20vh;
-    background-color: lavender;
-    text-align: right;
-    color: rgb(66, 66, 78);
-    margin-top: 10px;
-    padding-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-right: 3px solid;
-}
- /* about me */
-.child2 {
-    width: 100%;
-    padding: 20px;
-    border: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(48, 51, 59);
-    
-}
-.Parent2 {
+    margin-right: auto;
+  }
+  .flex-grid {
     display: flex;
-    flex-direction: row;
-    
-}
-.child3 {
-    flex: 50%;
-    max-width: 25%;
-    width: 25%;
-    height: 140vh;
-    background-color: lavender;
-    text-align: right;
-    color: rgb(66, 66, 78);
-    margin-top: 10px;
-    padding-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-right: 3px solid;
-}
- /* WORK */
-.child4 {
-    display: block;
-    width: 100%;
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 10px;
-}
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  margin-right: 20px;
+  
+  }
+  .about .sidebar {
+    flex: 1;
+  }
+  .sidebar {
+    background-color: aqua;
+    margin-right: 15px;
+    border-right: solid;
+    display: flex;
+    flex-direction: column;
+    margin: top 5px;
+    max-width: auto;
 
+  }
+  .sidebar2 {
+    background-color: aqua;
+    margin-right: 15px;
+    border-right: solid;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    max-width: auto;
+  }
+  .sidebar3 {
+    background-color: aqua;
+    margin-right: 15px;
+    border-right: solid;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    max-width: auto;
+  }
+
+  
 #imgborder {
     border: 5px solid hsl(182, 34%, 59%);
+    margin: 5px;
+}
 
-}
-.container2 {
+.surfreport{
+        flex: 100%;
+        width: 100%;
+        position: relative;
+      }
+      
+.led,
+.calc,
+.pastel,
+.runbuddy {
     position: relative;
-    
-}
-.container2 img {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-  }
-.container2 .btn2 {
+        flex: 50%;
+        width: 50%;
+      }
+
+.surfreport button {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(182, 34%, 59%);
@@ -194,57 +191,68 @@ html {
     font-weight: bold;
     border: none;
     cursor: pointer;
-    left: 0px;
-    bottom: 35px;
+    left: 85px;
+    bottom: 1px;
     text-align: justify;
     
 }
-
-.container3 {
-    position: relative;
-    margin-right: auto;
-
-    
-}
-.container3 img {
-    width: 50%;
-    height: auto;
-    
-  }
-
-.container3 .btn3 {
+.led button {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(182, 34%, 59%);
     color: rgb(48, 51, 59);
-    font-size: medium;
+    font-size: large;
     font-weight: bold;
     border: none;
     cursor: pointer;
-    left: 0px;
+    left: 5px;
     bottom: 35px;
-}
-.container4 {
-    position: relative;
-}
-.container4 img {
-    width: 50%;
-    height: auto;
+    text-align: justify;
   }
 
-.container4 .btn4 {
+  .calc button {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(182, 34%, 59%);
     color: rgb(48, 51, 59);
-    font-size: medium;
+    font-size: large;
     font-weight: bold;
     border: none;
     cursor: pointer;
-    left: 0px;
+    left: 5px;
     bottom: 35px;
-    text-align: right;
-}
+    text-align: justify;
+  }
+
+  .pastel button {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(182, 34%, 59%);
+    color: rgb(48, 51, 59);
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    left: 5px;
+    bottom: 35px;
+    text-align: justify;
+  }
+
+  .runbuddy button {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(182, 34%, 59%);
+    color: rgb(48, 51, 59);
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    left: 5px;
+    bottom: 35px;
+    text-align: justify;
+  }
+
+
  /* media queries */
  /* mobile */
 @media screen and (min-width:250px) and (max-width: 480px) {
@@ -268,83 +276,76 @@ html {
 	display:inline-block;
         background-color: #d1d6d8;
     }
-    .child3 {
-        max-height: 60vh;
-    }
-    .container2 .btn2 {
-        font-size: xx-small;
-    }
-    .container3 img {
+    .surfreport{
         flex-direction: column;
-        max-width: 100%!important;
-        display: flex
-    }
-    .container3 {
-        flex-direction: column;
-        max-width: 100%!important;
-        display: flex
-    }
-    .container3 .btn3 {
-        font-size: xx-small;
-    }
-    .container4 img{
-        flex-direction: column;
-        max-width: 100%!important;
-        display: flex;
-    }
-    .container4 {
-        display: flex;
-        flex-direction: column;
-        max-width: 100% !important; 
-    }
-    .container4 .btn4 {
-        font-size: xx-small;
         max-width: 100%;
     }
-}
-   /* Tablet View */
-   @media screen and (min-width:450px) and (max-width:768px) {
-    .container3 img {
-        flex-direction: row;
-        max-width: 50%;
-    }
-    .container3 {
-        flex-direction: row;
-        max-width: 50%;
-    }
-    .container4 img{
-        flex-direction: row;
-        max-width: 50%;
-    }
-    .container4 {
-        flex-direction: row;
-        max-width: 50%;
-    }
-    .container4 .btn4 {
-        font-size: small;
-        max-width: 100%;
+    
+
+    .led,
+    .calc,
+    .pastel,
+    .runbuddy {
+      flex: 100%;
+      width: 100%;
     }
   }
+    
+    
+
+   /* Tablet View */
+   @media screen and (min-width:450px) and (max-width:768px) {
+    .surfreport{
+        flex-direction: row;
+        flex: 100%;
+        
+    }
+    .led,
+    .calc,
+    .pastel,
+    .runbuddy {
+      flex: 100%;
+      width: 100%;
+      flex-direction: row;
+    }
+    .sidebar {
+        width: 25%;
+  margin-left: 0px;
+    }
+    .sidebar2 {
+        width: 25%;
+  margin-left: 0px;
+    }
+    .sidebar3 {
+        width: 25%;
+  margin-left: 0px;
+    }
+    .sidebar-header {
+        font-weight: bold;
+    }
+  }
+  
   /* Laptop View */
        @media screen and (min-width:769px) and (max-width:1024px) {
-        .container3 img {
+      
+    
+        .surfreport{
+            
+            max-width: 1200px;
             flex-direction: row;
-            max-width: 50%;
-        }
-        .container3 {
+            
+          }
+          .led,
+          .calc,
+          .pastel,
+          .runbuddy {
+            flex: 50%;
+            width: 50%;
             flex-direction: row;
-            max-width: 100%;
-        }
-        .container4 img{
-            flex-direction: row;
-            max-width: 100%;
-        }
-        .container4 {
-            flex-direction: row;
-            max-width: 100%;
-        }
-        .container4 .btn4 {
-            font-size: medium;
-            max-width: 100%;
-        }
+          }
+    .sidebar {
+        max-width: 25%;
+    }
+  
+ 
     }
