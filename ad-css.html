@@ -9,54 +9,124 @@
 <title>Larentino</title>
 
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <div class="logotext" <h1>Lernantino</h1>
-            </div>
-        </div>
+    <header class="navbar">
+        <!-- <div class="logo"> -->
+             <h1 class="logotext">Lernantino</h1>
+        <!-- </div> -->
 
-        </a>
-        <ul class="nav-links">
-            <li class="nav-item"><a href="#">About Me</a></li>
-            <li class="nav-item"><a href="#">Work</a></li>
-            <li class="nav-item"><a href="#">Contact Me</a></li>
-            <li class="nav-item"><a href="#">Resume</a></li>
-        </ul>
-    </nav>
+        <nav class="nav-links">
+            <a href="#about">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#Contact">Contact Me</a>
+            <a href="#">Resume</a>
+        </nav>
+    </header>
     <div class="container1" id="header-img">
         <button class="btn">Cool subtitle here!</button>
     </div>
     </div>
 
     </div>
-    <div class="container">
-        <div class="column">
+    <main class="container">
+        <section id="about" class="column page-section">
+            <h2>About <br> Me</h2>
             <div class="sidebar">
-              <div class="sidebar-header"><h1>About <br> Me</h1></div>
-              <div class="sidebar-content">
-              </div>
-            </div>
-            <div class="sidebar2">
-              <div class="sidebar-header"><h1>Work</h1></div>
-              <div class="sidebar-content">
-              </div>
-            </div>
-            <div class="sidebar3">
-              <div class="sidebar-header"><h1>Contact <br> Me</div>
-              <div class="sidebar-content">
-              </div>
-            </div>
-          </div>
-        
-        <div class="flex-grid">
-            <div class="About">
                 <p>
                     Lernantino is an up-and-coming artist with a unique and captivating style. With a passion for
                     creating
                     meaningful and thought-provoking pieces, Lernantino's work explores themes of identity, social
                     justice,
                     and the human experience.
+                </p>
+                <p>
+                    Whether working with paint, charcoal, or digital media, Lernantino's talent and dedication shine
+                    through
+                    in every piece. Keep an eye out for this rising star, as they continue to share their vision and
+                    inspire
+                    others through their art.
+                </p>
+            </div> 
+        </section>
+        <section id="work" class="column page-section">
+            <h2>Work</h2>
+            <div class="container">
+              <a href="#" class="boxitem Surf"> 
+                <div> 
+                    <h3>Surf Report</h3>
+                    <span>HTML</span>
+                </div>
+              </a>
+              <a href="#" class="boxitem Surf"> 
+                <div> 
+                    <h3>Surf Report</h3>
+                    <span>HTML</span>
+                </div>
+              </a>
+              <a href="#" class="boxitem Surf"> 
+                <div> 
+                    <h3>Surf Report</h3>
+                    <span>HTML</span>
+                </div>
+              </a>
+              <a href="#" class="boxitem Surf"> 
+                <div> 
+                    <h3>Surf Report</h3>
+                    <span>HTML</span>
+                </div>
+              </a>
+            </div> 
+        </section>
+        <section class="column page-section">
+            <h2>Contact <br> Me</h2>
+            <div class="sidebar">
+                <p>
+                    Lernantino is an up-and-coming artist with a unique and captivating style. With a passion for
+                    creating
+                    meaningful and thought-provoking pieces, Lernantino's work explores themes of identity, social
+                    justice,
+                    and the human experience.
+                </p>
+                <p>
+                    Whether working with paint, charcoal, or digital media, Lernantino's talent and dedication shine
+                    through
+                    in every piece. Keep an eye out for this rising star, as they continue to share their vision and
+                    inspire
+                    others through their art.
+                </p>
+            </div> 
+        </section>
+                <!-- <div class="sidebar-header">
+                    <h2>About <br> Me</h2>
+                </div>
+                <div class="sidebar-content">
+                </div>
+            </div>
+            <div class="sidebar2">
+                <div class="sidebar-header">
+                    <h1>Work</h1>
+                </div>
+                <div class="sidebar-content">
+                </div>
+            </div>
+            <div class="sidebar3">
+                <div class="sidebar-header">
+                    <h1>Contact <br> Me
+                </div>
+                <div class="sidebar-content">
+                </div>
+            </section> -->
+        </main>
 
+        <div class="flex-grid">
+            <article id="about">
+                <p>
+                    Lernantino is an up-and-coming artist with a unique and captivating style. With a passion for
+                    creating
+                    meaningful and thought-provoking pieces, Lernantino's work explores themes of identity, social
+                    justice,
+                    and the human experience.
+                </p>
+                <p>
                     Whether working with paint, charcoal, or digital media, Lernantino's talent and dedication shine
                     through
                     in every piece. Keep an eye out for this rising star, as they continue to share their vision and
@@ -65,8 +135,8 @@
                 </p>
 
 
-            </div>
-            <div class="work">
+            </article>
+            <main id="work">
                 <div class="surfreport"><img id="imgborder" src="Assets\img_4.jpg">
                     <button>
                         <h2>Surf Report</h2>MERN Stack
@@ -96,9 +166,16 @@
                         <h2>Run Buddy</h2>HTML/CSS
                     </button>
                 </div>
-            </div>
-        
-            <footer class="Contact">
+            </main>
+
+            <footer class="footerlinks">
+                <ul>
+                    <li class="footerlinks"><a href="tel:555-555-5555">555.555.5555</a></li>
+                    <li class="footerlinks"><a href="mailto:lernantino@website.com">lernantino@website.com</a></li>
+                    <li class="footerlinks"><a href="https://github.com/">Github</a></li>
+                    <li class="footerlinks"><a href="https://twitter.com/">Twitter</a></li>
+                    <li class="footerlinks"><a href="https://open.spotify.com/">Spotify</a></li>
+                </ul>
             </footer>
         </div>
     </div>
