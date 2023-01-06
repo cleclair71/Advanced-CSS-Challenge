@@ -174,7 +174,24 @@ a.nav-links, a:link {
 .Buddy:hover {
     opacity: 0.5;
 }
+.Contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
 
+.Contact address a  {
+    display: inline-block;
+    margin: 0 0.2rem 0.1rem;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.Contact address a:hover {
+    color: white;
+}
 
 figcaption {
     background-color: hsl(182, 34%, 59%);
@@ -187,7 +204,7 @@ figcaption {
     padding-bottom: 10px;
 }
 
-.footerlinks {
+/* .footerlinks {
     margin-left: 200px;
     margin-bottom: 40px;
     font-size: 20px;
@@ -195,9 +212,9 @@ figcaption {
     color: hsl(182, 34%, 59%);
 
 
-}
+} */
 
-footer {
+/* footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -221,7 +238,7 @@ footer a {
     flex-direction: row;
     flex-wrap: wrap;
 
-}
+} */
 
 
 /* media queries */
