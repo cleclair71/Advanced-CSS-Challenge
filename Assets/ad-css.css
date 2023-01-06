@@ -43,10 +43,11 @@ header nav {
 a:hover {
     background-color: white;
 }
+
 a.nav-links, a:link {
     color: hsl(182, 34%, 59%);
     padding: 0px 10px;
-    
+
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -96,10 +97,12 @@ a.nav-links, a:link {
     margin: 25px 0;
     padding: 10px 0;
 }
+
 .sidebar {
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 25px;
 }
+
 .page-section>h2 {
     flex: 0 0 20%;
     text-align: right;
@@ -183,14 +186,15 @@ figcaption {
     padding-right: 10px;
     padding-bottom: 10px;
 }
+
 .footerlinks {
     margin-left: 200px;
     margin-bottom: 40px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: hsl(182, 34%, 59%);
-    
-    
+
+
 }
 
 footer {
@@ -198,7 +202,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items:flex-start;
+    align-items: flex-start;
 
     padding-top: .5em;
     padding-bottom: .5em;
@@ -216,22 +220,19 @@ footer a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+
 }
 
 
 /* media queries */
 /* mobile */
 @media screen and (min-width:250px) and (max-width: 480px) {
-    .sidebar{
-        margin:auto;
+    .sidebar {
+        margin: auto;
     }
 }
-    
-    /* Tablet View */
-    @media screen and (min-width:450px) and (max-width:768px) 
-        
-        /* Laptop View */
-        @media screen and (min-width:769px) and (max-width:1024px) 
 
-           
+/* Tablet View */
+@media screen and (min-width:450px) and (max-width:768px)
+/* Laptop View */
+@media screen and (min-width:769px) and (max-width:1024px)
