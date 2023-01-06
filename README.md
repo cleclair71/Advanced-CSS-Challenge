@@ -111,23 +111,14 @@ You are required to submit BOTH of the following for review:
 
 My aim is to create a webpage from scratch so that the client can display deployed work.
 
-In this starter code I added a variety of invisible features to help accessibility and SEO. Listed below are the features I added and the reason why I added them.
-* **title:** Titles define the document and is important for users and search engines to understand the webpages content before clicking on the link.
-* **tabindex:** I added a tabindex feature so that keyboard users could navigate the website with the tab button
-* **aria-label/aria-labelled:** I added as a a label for accessibility and SEO
-* **alt tags:** I added alt tags to images to improve accessibility by describing the images
-* **role:** I added role to make the website more facilitative and accessible
-* **id:** I added id to my HTML script so I could change it in CSS
-* **abbr:** I added abbr on SEO for accessibility
-* **strong:** I added strong to add keywords into my text for SEO
-* **comments:** I added comments in both my CSS sheet and HTML file to help navigate the features I was changing and organize the changes I made
-* **hover:** I used the pseudo-class hover to make the navigation links in the header more interactive
-* **section:** I replaced certain div placements with section for accessibility
-* **aside:** I replaced the div tags on the right section for accessibility, allowing the browser to know what the main content is
+In this starter code I added a variety of  features that meet the Employer's requirements
+
+```
+The purpose of this website is to showcase a potential employee's previous work. When the website is loaded, the user should see the developer's name, a recent photo or avatar, and links to sections about the developer, their work, and how to contact them. By clicking one of the links in the navigation, the user is taken to the corresponding section of the website. The section about the developer's work includes titled images of their applications, with the first application being larger in size. Clicking on these images will take the user to the deployed application. The website should have a responsive layout that adapts to different screens and devices.
 
 ## Installation
 
-Once clicking on the website link, you may navigate through the page with the tab hot-key, by scrolling with your mouse pad or by clicking the links at the top of the page in the header in order to navigate to each topic.
+Once clicking on the website link, you may navigate through the page and click on links with your mouse.
 
 ## Usage
 
