@@ -16,8 +16,8 @@ Once clicking on the website link, you may navigate through the page and click o
 
 ## Usage
 
-* **repository:** https://github.com/cleclair71/module-one-challenge-Cassie 
-* **deployed url:** https://cleclair71.github.io/module-one-challenge-Cassie/ 
+* **repository:** https://github.com/cleclair71/Advanced-CSS-Challenge
+* **deployed url:** https://cleclair71.github.io/Advanced-CSS-Challenge/
 
 ### Screenshots:
 ![Alt text](Assets\Screenshot1.JPG?raw=true "Screenshot1")
