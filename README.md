@@ -1,7 +1,7 @@
 
-# Portfolio Advanced CSS Challenge
+# Portfolio Advanced CSS Challenge 
 
-## Description
+## Description 
 
 My aim is to create a webpage from scratch so that the client can display deployed work.
 
@@ -20,8 +20,9 @@ Once clicking on the website link, you may navigate through the page and click o
 * **deployed url:** https://cleclair71.github.io/Advanced-CSS-Challenge/
 
 ### Screenshots:
-![Alt text](Assets\Screenshot1.JPG?raw=true "Screenshot1")
-![Alt text](Assets\screenshot2.JPG "Screenshot2")
+![Screenshot1](https://user-images.githubusercontent.com/76407605/211167999-140c2d21-bc1c-4b95-a401-787cb06fc422.JPG)
+![screenshot2](https://user-images.githubusercontent.com/76407605/211168004-3cca2f35-2649-42b0-b168-4a5d2a7d11ac.JPG)
+
 
 
 ## Credits
