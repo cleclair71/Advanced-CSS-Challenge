@@ -51,6 +51,7 @@ a.nav-links, a:link {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* banner image */
 
 .container1 {
@@ -70,7 +71,7 @@ a.nav-links, a:link {
 
 .container1 .btn {
     position: absolute;
-    bottom: 8px;
+    bottom: 700px;
     right: 40px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(182, 34%, 59%);
@@ -86,6 +87,16 @@ a.nav-links, a:link {
 .container1 .btn:hover {
     background-color: rgb(48, 51, 59);
     color: white;
+}
+#Cassie {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(50% - 1em);
+    min-height: 150px;
+    max-height: 250px;
+    float: right;
+    margin: 0.5em;
+    padding: 0 0 20px 0;
 }
 
 main {
