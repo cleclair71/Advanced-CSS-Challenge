@@ -64,9 +64,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Cassie LeClair - cassieleclair71@gmail.com
-
-* Deployed Website: [https://github.com/cleclair71/Advanced-CSS-Challenge](https://github.com/cleclair71/Advanced-CSS-Challenge)
-* Repository Link: [https://cleclair71.github.io/Advanced-CSS-Challenge/](https://cleclair71.github.io/Advanced-CSS-Challenge/)
+* Repository Link: [https://github.com/cleclair71/Advanced-CSS-Challenge](https://github.com/cleclair71/Advanced-CSS-Challenge)
+ * Deployed Website: [https://cleclair71.github.io/Advanced-CSS-Challenge/](https://cleclair71.github.io/Advanced-CSS-Challenge/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
