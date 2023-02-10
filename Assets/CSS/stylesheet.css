@@ -157,10 +157,13 @@ main {
     flex-basis: 100%;
 
 }
-
+a .Surf {
+    background-position: center;
+    flex: 1;
+}
 .Surf {
-    background-image: url("../img_1.jpg");
-
+    background-image: url("../The weather dj.jpg");
+    background-size: cover;
 }
 
 .LED {
